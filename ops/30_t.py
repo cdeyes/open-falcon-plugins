@@ -15,5 +15,5 @@ result={ 'endpoint' : hn,
          'step' : 30
        }
 #one two
-rl.append(json.dumps(result))
-print rl
+rl.append(result)
+print json.dumps(rl)
