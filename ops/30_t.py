@@ -14,6 +14,6 @@ result={ 'endpoint' : hn,
          'counterType' : 'GAUGE',
          'step' : 30
        }
-#one two three four
+#one two three four five
 rl.append(result)
 print json.dumps(rl)
